@@ -27,21 +27,21 @@ int main(void)
     {
         ans = a + b;
     }
-    else if (input_operator == "-")
+    else if (input_operator == "-") //if tbe input is -, then subtract
     {
         ans = a - b;
     }
-    else if (input_operator == "*")
+    else if (input_operator == "*") //if its *, then multiply
     {
         ans = a - b;
     }
-    else if (input_operator == "/")
+    else if (input_operator == "/") //if its /, then divide
     {
         ans = a/b;
     }
-    else{
+    else{ //if no other input is used, then its not a valid one. answer is set to 0 and prints an error
         ans = 0;
-        cout<< "not a valid input\n";
+        cout << input_operator << " is not a valid input\n";
     }
     
 
