@@ -1,7 +1,7 @@
 /*
  *  UCF COP3330 Fall 2021 Assignment 5 Solution
  *  Copyright 2021 Alexandra Ramlogan
- *  Chapter 3 Exercise 8
+ *  Chapter 3 Exercise 10
  */
 
 //#include "std_lib_facilities.h"
